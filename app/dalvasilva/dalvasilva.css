@@ -1,0 +1,36 @@
+.dalvasilva-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 16px;
+  background-color: #efe9f4;
+  color: black;
+}
+
+.dalvasilva-container .products-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.dalvasilva-container .products-section h2 {
+  align-self: flex-start;
+  font-size: 32px;
+}
+
+.dalvasilva-container .products-section .product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.dalvasilva-container .products-section .product-grid img {
+  border: 5px solid pink;
+  border-radius: 8px;
+}
+
+.dalvasilva-container .products-section .product-grid h3 {
+  font-size: 16px;
+  text-align: center;
+}
